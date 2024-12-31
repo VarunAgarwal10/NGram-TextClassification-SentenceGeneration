@@ -17,7 +17,7 @@ The primary goal is to develop and evaluate a **Bigram Language Model**, a simpl
 
 2. **Model Formulation (for Bi-gram)**:
    - The probability of a document \( D \) given a class \( y \) is calculated as:
-     P(D | y) = P(w_1^n | y) = \prod_{i=1}^{n} P(w_i | w_{i-1}, y) $$
+     $P(D | y) = P(w_1^n | y) = \prod_{i=1}^{n} P(w_i | w_{i-1}, y)$
    - The conditional probability is estimated as:
      P(w_i | w_{i-1}, y) = \frac{C(w_{i-1}w_i | y)}{C(w_{i-1} | y)}
 
