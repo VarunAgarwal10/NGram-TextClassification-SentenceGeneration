@@ -110,7 +110,7 @@ class Runner:
 
 
 if __name__ == '__main__':
-    AI_FILE = "./data/ai_generated_docs.txt"
-    HUMAN_FILE = "./data/human_generated_docs.txt"
+    AI_FILE = "../data/ai_generated_docs.txt"
+    HUMAN_FILE = "../data/human_generated_docs.txt"
     workflow = Runner(AI_FILE, HUMAN_FILE)
     workflow.run()
